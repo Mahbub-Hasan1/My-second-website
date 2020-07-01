@@ -1,0 +1,206 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background: linear-gradient(75deg, #EC5197, #FF043D);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: .4s;
+}
+button:hover{
+    background: linear-gradient(75deg, #ED4B70,#FFCE2A);
+    box-shadow: 0 5px #666;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+.Hello-part{
+    width: 35%;
+    float: left;
+    overflow: hidden;
+    padding-left: 20%;
+    margin-top: 10%;
+    
+}
+
+.Hello-part h2{
+   font-size: 33px;
+}
+.Hello-part span{
+    font-size: 50px;
+    color:#FF043D;
+  
+}
+.Hello-part p{
+    color: #707070;
+}
+.Hello-img{
+    width: 45%;
+    float: right;
+    overflow: hidden;
+    transition: .5s;
+}
+.Hello-img:hover{
+    transform: scale(1.1);
+}
+.Hello-img img{
+    width: 80%;
+    margin-top: 10%;
+}
+/*-- Header Area Ends --*/
+.section1-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+.section1-img{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.section1-img img:hover{
+    transform: scale(1.1);
+}
+.section1-img img{
+    width:  65%;
+    margin-top: 10%;
+    overflow: hidden;
+    margin-left: 15%;
+    transition: .5s;
+}
+.section-Biography{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 12%;
+}
+.section-Biography h2{
+    font-size: 30px;
+}
+.section-Biography p{
+    color:#707070;
+}
+/*-- section1 Area Ends --*/
+.service2-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.section-title{
+    padding:35px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.section-title h2{
+
+}
+.service-items{
+
+}
+
+.secvice-img{
+    width:32%;
+    float: left;
+    overflow: hidden;
+    margin-left: 2%;
+    transition: .5s;
+ 
+}
+.secvice-img:first-child{
+    margin-left: 0;
+}
+.secvice-img img{
+    width: 100%;
+}
+.secvice-img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px #9D9D9D;
+}
+/*-- section2 Area Ends --*/
+.service3-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 10%;
+
+
+ 
+}
+.container2{
+    width: 50%;
+    margin: 0 auto;
+}
+.head-title{
+    text-align: center;
+    margin-bottom: 20p%;
+
+}
+.head-title h2{
+    font-size: 30px;
+}
+.head-title h4{
+    font-size: 20px;
+}
+.head-title span{
+    font-size: 13px;
+    color:#9D9D9D;
+}
+.head-title h3{
+    font-size: 15px;
+    color: #464646;
+}
+.my-gmail{
+    text-align: center;
+    background-color: #EC4F8F;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-bottom: 90px;
+    color:#FFFFFF;
+    border-radius: 20px;
+    transition: 1s;
+    background: linear-gradient(75deg, #EC5197, #FF043D);
+}
+.my-gmail:hover{
+    transform: scale(1.1);
+    background: linear-gradient(75deg, #ED4B70,#FFCE2A);
+}
+.my-gmail p{
+    font-size: 12px;
+ 
+}
+.foter{
+    text-align: center;
+    color:#C8C8C8;
+}
+.foter:hover{
+    color: darkgrey;
+}
